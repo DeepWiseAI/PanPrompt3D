@@ -78,16 +78,9 @@ ground-truth clicks, reconstruct a whole-volume prediction, or run an experiment
 
 ## Weights and checks
 
-See `checkpoints/README.md` and `checkpoints/manifest.json` for the full-model
-weights and hashes. Only full-model weights and necessary initialization are
-packaged. Weights are intentionally ignored by ordinary Git; distribute approved
-weights separately as release assets or explicitly configure Git LFS.
+The pretrained model weights can be downloaded from Baidu Netdisk:
 
-```bash
-python scripts/verify_release.py
-python -m unittest discover -s tests
-```
+- Download link: https://pan.baidu.com/s/1eK7XUF6X9Y_UWfdHuBHsdw
+- Extraction code: `klas`
 
-See `docs/IMPLEMENTATION_NOTES.md` for retained historical behavior and validation
-limits. Public release licensing and model distribution permissions must be
-confirmed by the rights holder; see `PUBLICATION_CHECKLIST.md`.
+After downloading, place the weight files in the designated model-weight directory before running inference or evaluation.
