@@ -1,0 +1,9 @@
+# Tested with Python 3.10.15. Install PyTorch for your CUDA driver separately.
+torch==2.5.1
+numpy==1.26.4
+monai==1.4.0
+torchio==0.20.2
+SimpleITK==2.4.0
+matplotlib==3.9.2
+tqdm==4.67.0
+prefetch-generator==1.0.3

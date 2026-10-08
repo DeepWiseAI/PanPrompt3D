@@ -1,0 +1,34 @@
+{
+  "scope": "full PanPrompt3D only",
+  "model_class_definitions_ast_equal_to_source": {
+    "image_encoder3D": true,
+    "mask_decoder3D": true,
+    "prompt_encoder3D": true,
+    "sam3D": true
+  },
+  "python_syntax": "passed",
+  "unit_tests": {"passed": 4, "failed": 0},
+  "training_cli": "passed",
+  "prediction_cli": "passed",
+  "checkpoint_export_tensor_equality": "passed",
+  "checkpoint_files_sha256_verified": 4,
+  "full_best_and_last_strict_load": "passed",
+  "initialization_compatibility": {"missing_keys": 0, "extra_keys": 4},
+  "checkpoint_serialized_metadata_private_address_scan": "passed",
+  "public_code_private_address_scan": "passed",
+  "bounded_synthetic_smoke": {
+    "strict_full_checkpoint_load": "passed",
+    "encoder_forward": "passed",
+    "training_interaction_iterations": 11,
+    "decoder_backward": "passed",
+    "loss_finite": true,
+    "peak_allocated_gpu_mb": 1118.0,
+    "encoder_backward_tested": false,
+    "optimizer_update_tested": false,
+    "sustained_training_tested": false,
+    "distributed_training_tested": false
+  },
+  "unchanged_original_jobs_and_shared_environment": true,
+  "github_uploaded": false,
+  "project_specific_public_license_confirmed": false
+}

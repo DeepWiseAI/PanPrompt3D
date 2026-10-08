@@ -1,0 +1,23 @@
+{
+  "model_type": "vit_b_ori",
+  "img_size": 128,
+  "num_epochs": 200,
+  "seed": 3407,
+  "historical_multi_gpu": true,
+  "historical_gpu_count": 4,
+  "batch_size_per_gpu": 2,
+  "accumulation_steps": 20,
+  "num_clicks_max_configured": 30,
+  "effective_interactions_per_batch": 11,
+  "multi_click": false,
+  "lr": 0.0008,
+  "weight_decay": 0.1,
+  "lr_scheduler": "multisteplr",
+  "step_size": [120, 180],
+  "gamma": 0.1,
+  "which_data_aug": "v1",
+  "use_cf_loss": true,
+  "alpha_cf_loss": 0.5,
+  "gamma_cf_loss": 0.5,
+  "initialization": "initialization_water.pth"
+}

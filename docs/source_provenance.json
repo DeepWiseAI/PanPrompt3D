@@ -1,0 +1,34 @@
+{
+  "panprompt3d/modeling/image_encoder3D.py": {
+    "original_file": "segment_anything/modeling/image_encoder3D.py",
+    "original_sha256": "1668fb611ef2edfb6d5e66242c9ce14cf88ce9f5aec84edf52fb1b5b2736e752"
+  },
+  "panprompt3d/modeling/mask_decoder3D.py": {
+    "original_file": "segment_anything/modeling/mask_decoder3D.py",
+    "original_sha256": "af7766c780515aabdfa6a2ee180d4ec52d4a0d810d2a7e871c88b043a25dd0c1"
+  },
+  "panprompt3d/modeling/prompt_encoder3D.py": {
+    "original_file": "segment_anything/modeling/prompt_encoder3D.py",
+    "original_sha256": "aa2b6f582d29cdf84e1d34194cce9d2b9d960d8339fdc4aac18c62867d0f88f5"
+  },
+  "panprompt3d/modeling/sam3D.py": {
+    "original_file": "segment_anything/modeling/sam3D.py",
+    "original_sha256": "cc85c19edae9cd79842fb03afd95f2ff5d2d9a526893178b991e33bb5208b84d"
+  },
+  "panprompt3d/clicks.py": {
+    "original_file": "utils/click_method.py",
+    "original_sha256": "0838972fb2f33de579a2652d3225f862d84dc6df113b152ea6018730c9b792d7"
+  },
+  "panprompt3d/losses.py": {
+    "original_file": "utils/cf_loss_3d.py",
+    "original_sha256": "44e0b295926064c3ffabfa6f335ddf6eceb4b38dce8d1d606e96b077d6b79550"
+  },
+  "panprompt3d/data.py": {
+    "original_file": "utils/data_loader.py",
+    "original_sha256": "e16e5d18e5df226fcd75d41f774c263e740e1f7c171bc19be00d7d17bac38d1d"
+  },
+  "train.py": {
+    "original_file": "train_all_datasets_respacing15.py",
+    "original_sha256": "d9e2e3957c71094095b4f55e1bf471508e1a8a5c89d020f51937742945131704"
+  }
+}
